@@ -2,6 +2,7 @@
 use \Bitrix\Main\Localization\Loc;
 
 $bTab = isset($tabCode) && $tabCode === 'brochure';
+
 ?>
 <?//show brochure block?>
 <?if($templateData['BROCHURE']):?>
@@ -10,12 +11,12 @@ $bTab = isset($tabCode) && $tabCode === 'brochure';
             <?$bShow_brochure = true;?>
         <?else:?>
             <div class="tab-pane <?=(!($iTab++) ? 'active' : '')?>" id="brochure">
-                <?= $templateData['BROCHURE'] ?>
+                <?= html_entity_decode($templateData['BROCHURE']['TEXT']) ?>
             </div>
         <?endif;?>
     <?else:?>
         <div class="detail-block ordered-block brochure">
-            <?= $templateData['BROCHURE']?>
+            <?= html_entity_decode($templateData['BROCHURE']['TEXT']) ?>
         </div>
     <?endif;?>
 <?endif;?>

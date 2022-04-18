@@ -23,7 +23,6 @@ if(!$nImageID){
 	}
 }
 $imageSrc = ($nImageID ? CFile::getPath($nImageID) : SITE_TEMPLATE_PATH.'/images/svg/noimage_content.svg');
-
 /*set array props for component_epilog*/
 $templateData = array(
 	'ORDER' => $bOrderViewBasket,

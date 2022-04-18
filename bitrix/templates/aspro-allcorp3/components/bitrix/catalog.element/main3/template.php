@@ -40,7 +40,7 @@ $templateData = array(
 );
 
 foreach ([
-             'PRICE'=>'TECHNICAL_SPECIFICATIONS',
+             'TECHAR'=>'TECHNICAL_SPECIFICATIONS',
              'INSTRUCT'=>'APPLICATION_INSTRUCTIONS',
          ] as $key => $value) {
     $templateData[$key] = $arResult['CHARACTERISTICS'][$value];
