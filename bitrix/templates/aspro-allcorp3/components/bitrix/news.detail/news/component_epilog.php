@@ -48,6 +48,7 @@ else{
 	$arTabOrder = explode(",", $arParams["DETAIL_BLOCKS_TAB_ORDER"]);
 }
 $arTabOrder[] = 'brochure';
+foreach ($templateData['TABS'] as $key) $arTabOrder[] = $key;
 ?>
 <div class="services-detail__bottom-info">
 	<?foreach($arBlockOrder as $blockCode):?>
