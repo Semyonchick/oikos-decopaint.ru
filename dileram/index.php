@@ -282,7 +282,7 @@ $APPLICATION->SetTitle("Дилерам");
 		"SORT_ORDER2" => "ASC",
 		"STRICT_SECTION_CHECK" => "N",
 		"S_ASK_QUESTION" => "",
-		"S_ORDER_SERVISE" => "Оставить заявку",
+		"S_ORDER_SERVISE" => "Хочу открыть Oikos",
 		"TOP_GALLERY_PROP_CODE" => "TOP_GALLERY",
 		"TYPE_BIG_GALLERY" => "SMALL",
 		"TYPE_HEAD_BLOCK" => "FROM_MODULE",
