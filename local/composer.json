@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Okos\\": "php_interface/"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+  }
+}
