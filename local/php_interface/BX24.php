@@ -66,7 +66,7 @@ class BX24
 
         try {
             $result = $this->curl($url, $post);
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             print_r('bitrix error');
             sleep(3);
             return self::run($method, $get, $post);
@@ -77,9 +77,7 @@ class BX24
                 sleep(5);
                 return $this->run($method, $get, $post);
             }
-//            print_r($url .PHP_EOL);
-//            print_r($post);
-            throw new Exception(print_r($result, 1));
+            throw new \Exception(print_r($result, 1));
         }
 
         if ($result['next']) $this->next = $result['next'];
