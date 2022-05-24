@@ -49,6 +49,7 @@ else{
 }
 $arTabOrder[] = 'brochure';
 foreach ($templateData['TABS'] as $key) $arTabOrder[] = $key;
+$arTabOrder = array_unique($arTabOrder);
 ?>
 <div class="services-detail__bottom-info">
 	<?foreach($arBlockOrder as $blockCode):?>

@@ -27,7 +27,7 @@ $APPLICATION->SetTitle("Дилерам");
 		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"DETAIL_BLOCKS_ALL_ORDER" => "tizers,order_form,desc,char,reviews,big_gallery,video,services,projects,news,sale,articles,docs,staff,faq,partners,vacancy,goods,dops,comments,map",
 		"DETAIL_BLOCKS_ORDER" => "tizers,order_form,tabs,big_gallery,map,sale,services,projects,news,articles,staff,partners,vacancy,goods,comments",
-		"DETAIL_BLOCKS_TAB_ORDER" => "desc,char,video,docs,faq,reviews,buy,payment,delivery,dops",
+		"DETAIL_BLOCKS_TAB_ORDER" => "desc,training,promotion,faq,docs,video,reviews,buy,payment,delivery,dops",
 		"DETAIL_BLOG_EMAIL_NOTIFY" => "N",
 		"DETAIL_BLOG_TITLE" => "Комментарии",
 		"DETAIL_BLOG_URL" => "catalog_comments",
